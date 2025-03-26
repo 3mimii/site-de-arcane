@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #580000;
+    --laranja-claro: #c459a0;
 }
 
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
+    background-color: #505050;
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #393939;
 }
 
 
@@ -21,7 +22,7 @@ section {
 
 
 .nav-link {
-    color: #580000;
+    color: #c459a0;
     font-weight: 600;
 }
 
@@ -55,6 +56,10 @@ section {
     gap: 1rem;
 }
 
+.p-2 {
+
+    color: #ffffff;
+}
 
 .botao-inicio {
     background-color: var(--laranja-claro);
@@ -78,9 +83,11 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180px 180px;
+    background: 
+        url('img/flor-esquerda.png') top right no-repeat;
+    background-size: 350px 350px;
+    background-color: #505050;
+    
     /* Ajuste o tamanho conforme necessário */
 }
 
@@ -107,7 +114,7 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/mão\ do\ parede.webp') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
