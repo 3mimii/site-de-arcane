@@ -58,7 +58,7 @@ section {
 
 .p-2 {
 
-    color: #000000;
+    color: #fffdfd;
 }
 
 .botao-inicio {
@@ -83,10 +83,10 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: 
-        url('img/flor-esquerda.png') top right no-repeat;
-    background-size: 350px 350px;
-    background-color: #505050;
+    
+        
+    background-color: #444343;
+    ;
     
     /* Ajuste o tamanho conforme necessário */
 }
@@ -105,21 +105,16 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color:rgb(255, 0, 119)
+    color:rgb(150, 84, 115)
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #444343;
 
-}
-
-.fundo-galeria {
-    background: url('img/mão\ do\ parede.webp') bottom right no-repeat;
-    background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/FUNDO\ 2\ .jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -138,7 +133,7 @@ h2 {
         font-family: 'Lemon', serif;
         font-size: 2.5em;
         font-style: normal;
-        color: rgb(255, 0, 119)
+        color: rgb(150, 84, 115)
     }
     
     #galeria {
@@ -165,13 +160,13 @@ h2 {
         /* Espaçamento interno dentro do formulário */
         border-radius: 10px;
         /* Borda arredondada para o formulário */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
         /* Sombra suave para destacar o formulário */
         font-weight: bold;
     }
     
     .formulario button {
-        background-color: #CB6D43;
+        background-color: #a00760;
         border: none;
         font-weight: bold;
     }
@@ -240,6 +235,11 @@ h2 {
 .alto-contraste .fundo-galeria {
     background: rgb(255, 255, 255);
 }
+
+.alto-contraste .p-2{
+    color: black;
+}
+
 
 .alto-contraste #tropicalia{
 
